@@ -49,9 +49,13 @@ The main challenge identified in local markets is the lack of timely information
 - **Amazon SES** - Email notifications
 
 ### Frontend
-- **React.js** - User interface
+- **Vue.js 3** - Progressive JavaScript framework for building user interfaces
+- **TypeScript** - Type safety and better development experience
+- **Vite** - Fast build tool and development server
+- **Pinia** - State management for Vue
+- **Vue Router** - Client-side routing
+- **Tailwind CSS** - Utility-first CSS framework
 - **AWS Amplify** - Hosting and CI/CD
-- **Tailwind CSS** - Styling framework
 
 ### Additional Services
 - **Amazon CloudFront** - CDN for global content delivery
@@ -81,11 +85,12 @@ serverless-project/
 │   │   ├── shared/
 │   │   └── types/
 │   └── package.json
-├── frontend/               # React application
+├── frontend/               # Vue.js 3 application
 │   ├── src/
 │   │   ├── components/
-│   │   ├── pages/
-│   │   ├── hooks/
+│   │   ├── views/
+│   │   ├── composables/
+│   │   ├── stores/
 │   │   ├── services/
 │   │   └── utils/
 │   └── package.json
