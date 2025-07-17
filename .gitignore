@@ -27,6 +27,8 @@ coverage/
 cdk.out/
 */cdk.out/
 cdk.context.json
+dist
+*/dist/
 
 # AWS SAM
 .aws-sam/
